@@ -13,6 +13,20 @@
 		91F59E6420089A0600F59938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F59E6320089A0600F59938 /* Assets.xcassets */; };
 		91F59E6720089A0600F59938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F59E6520089A0600F59938 /* LaunchScreen.storyboard */; };
 		91F59E7220089A0600F59938 /* AlgorithmPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F59E7120089A0600F59938 /* AlgorithmPlaygroundTests.swift */; };
+		91F59E7D20089A5100F59938 /* BinarySearchTreeQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F59E7C20089A5100F59938 /* BinarySearchTreeQuestion.swift */; };
+		91F59E8E2008A25700F59938 /* Algorithm_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F59E852008A25700F59938 /* Algorithm_IOS.framework */; };
+		91F59E952008A25700F59938 /* Algorithm_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F59E942008A25700F59938 /* Algorithm_IOSTests.swift */; };
+		91F59E972008A25700F59938 /* Algorithm_IOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F59E872008A25700F59938 /* Algorithm_IOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91F59E9A2008A25700F59938 /* Algorithm_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F59E852008A25700F59938 /* Algorithm_IOS.framework */; };
+		91F59E9B2008A25700F59938 /* Algorithm_IOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91F59E852008A25700F59938 /* Algorithm_IOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		91F59EA4200909A600F59938 /* LinkedListQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F59EA3200909A600F59938 /* LinkedListQuestion.swift */; };
+		91F59EA620090A0C00F59938 /* NodeLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F59EA520090A0C00F59938 /* NodeLL.swift */; };
+		91F59EA920091F4200F59938 /* BinarySearchTreeQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F59E7C20089A5100F59938 /* BinarySearchTreeQuestion.swift */; };
+		91F59EAB20091FB900F59938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F59E5E20089A0600F59938 /* ViewController.swift */; };
+		91F59EAC200A395E00F59938 /* LinkedListQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F59EA3200909A600F59938 /* LinkedListQuestion.swift */; };
+		91F59EAD200A396600F59938 /* NodeLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F59EA520090A0C00F59938 /* NodeLL.swift */; };
+		91F59EFA200A476600F59938 /* NodeBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F59EF9200A476600F59938 /* NodeBST.swift */; };
+		91F59EFB200A476600F59938 /* NodeBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F59EF9200A476600F59938 /* NodeBST.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +37,42 @@
 			remoteGlobalIDString = 91F59E5820089A0500F59938;
 			remoteInfo = AlgorithmPlayground;
 		};
+		91F59E8F2008A25700F59938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F59E5120089A0500F59938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91F59E842008A25700F59938;
+			remoteInfo = "Algorithm-IOS";
+		};
+		91F59E912008A25700F59938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F59E5120089A0500F59938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91F59E5820089A0500F59938;
+			remoteInfo = AlgorithmPlayground;
+		};
+		91F59E982008A25700F59938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F59E5120089A0500F59938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91F59E842008A25700F59938;
+			remoteInfo = "Algorithm-IOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91F59E9F2008A25700F59938 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				91F59E9B2008A25700F59938 /* Algorithm_IOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		91F59E5920089A0600F59938 /* AlgorithmPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +85,17 @@
 		91F59E6D20089A0600F59938 /* AlgorithmPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F59E7120089A0600F59938 /* AlgorithmPlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmPlaygroundTests.swift; sourceTree = "<group>"; };
 		91F59E7320089A0600F59938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91F59E7C20089A5100F59938 /* BinarySearchTreeQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTreeQuestion.swift; sourceTree = "<group>"; };
+		91F59E852008A25700F59938 /* Algorithm_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Algorithm_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F59E872008A25700F59938 /* Algorithm_IOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Algorithm_IOS.h; sourceTree = "<group>"; };
+		91F59E882008A25700F59938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91F59E8D2008A25700F59938 /* Algorithm-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algorithm-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F59E942008A25700F59938 /* Algorithm_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm_IOSTests.swift; sourceTree = "<group>"; };
+		91F59E962008A25700F59938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91F59EA3200909A600F59938 /* LinkedListQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListQuestion.swift; sourceTree = "<group>"; };
+		91F59EA520090A0C00F59938 /* NodeLL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeLL.swift; sourceTree = "<group>"; };
+		91F59EF5200A44A100F59938 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		91F59EF9200A476600F59938 /* NodeBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeBST.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F59E9A2008A25700F59938 /* Algorithm_IOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +111,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F59E812008A25700F59938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F59E8A2008A25700F59938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F59E8E2008A25700F59938 /* Algorithm_IOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +137,8 @@
 			children = (
 				91F59E5B20089A0600F59938 /* AlgorithmPlayground */,
 				91F59E7020089A0600F59938 /* AlgorithmPlaygroundTests */,
+				91F59E862008A25700F59938 /* Algorithm-IOS */,
+				91F59E932008A25700F59938 /* Algorithm-IOSTests */,
 				91F59E5A20089A0600F59938 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +148,8 @@
 			children = (
 				91F59E5920089A0600F59938 /* AlgorithmPlayground.app */,
 				91F59E6D20089A0600F59938 /* AlgorithmPlaygroundTests.xctest */,
+				91F59E852008A25700F59938 /* Algorithm_IOS.framework */,
+				91F59E8D2008A25700F59938 /* Algorithm-IOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,12 +157,17 @@
 		91F59E5B20089A0600F59938 /* AlgorithmPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				91F59EF5200A44A100F59938 /* Playground.playground */,
 				91F59E5C20089A0600F59938 /* AppDelegate.swift */,
 				91F59E5E20089A0600F59938 /* ViewController.swift */,
 				91F59E6020089A0600F59938 /* Main.storyboard */,
 				91F59E6320089A0600F59938 /* Assets.xcassets */,
 				91F59E6520089A0600F59938 /* LaunchScreen.storyboard */,
 				91F59E6820089A0600F59938 /* Info.plist */,
+				91F59E7C20089A5100F59938 /* BinarySearchTreeQuestion.swift */,
+				91F59EA3200909A600F59938 /* LinkedListQuestion.swift */,
+				91F59EA520090A0C00F59938 /* NodeLL.swift */,
+				91F59EF9200A476600F59938 /* NodeBST.swift */,
 			);
 			path = AlgorithmPlayground;
 			sourceTree = "<group>";
@@ -96,7 +181,36 @@
 			path = AlgorithmPlaygroundTests;
 			sourceTree = "<group>";
 		};
+		91F59E862008A25700F59938 /* Algorithm-IOS */ = {
+			isa = PBXGroup;
+			children = (
+				91F59E872008A25700F59938 /* Algorithm_IOS.h */,
+				91F59E882008A25700F59938 /* Info.plist */,
+			);
+			path = "Algorithm-IOS";
+			sourceTree = "<group>";
+		};
+		91F59E932008A25700F59938 /* Algorithm-IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				91F59E942008A25700F59938 /* Algorithm_IOSTests.swift */,
+				91F59E962008A25700F59938 /* Info.plist */,
+			);
+			path = "Algorithm-IOSTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		91F59E822008A25700F59938 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F59E972008A25700F59938 /* Algorithm_IOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		91F59E5820089A0500F59938 /* AlgorithmPlayground */ = {
@@ -106,10 +220,12 @@
 				91F59E5520089A0500F59938 /* Sources */,
 				91F59E5620089A0500F59938 /* Frameworks */,
 				91F59E5720089A0500F59938 /* Resources */,
+				91F59E9F2008A25700F59938 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				91F59E992008A25700F59938 /* PBXTargetDependency */,
 			);
 			name = AlgorithmPlayground;
 			productName = AlgorithmPlayground;
@@ -134,6 +250,43 @@
 			productReference = 91F59E6D20089A0600F59938 /* AlgorithmPlaygroundTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		91F59E842008A25700F59938 /* Algorithm-IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F59E9C2008A25700F59938 /* Build configuration list for PBXNativeTarget "Algorithm-IOS" */;
+			buildPhases = (
+				91F59E802008A25700F59938 /* Sources */,
+				91F59E812008A25700F59938 /* Frameworks */,
+				91F59E822008A25700F59938 /* Headers */,
+				91F59E832008A25700F59938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Algorithm-IOS";
+			productName = "Algorithm-IOS";
+			productReference = 91F59E852008A25700F59938 /* Algorithm_IOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91F59E8C2008A25700F59938 /* Algorithm-IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F59EA02008A25700F59938 /* Build configuration list for PBXNativeTarget "Algorithm-IOSTests" */;
+			buildPhases = (
+				91F59E892008A25700F59938 /* Sources */,
+				91F59E8A2008A25700F59938 /* Frameworks */,
+				91F59E8B2008A25700F59938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91F59E902008A25700F59938 /* PBXTargetDependency */,
+				91F59E922008A25700F59938 /* PBXTargetDependency */,
+			);
+			name = "Algorithm-IOSTests";
+			productName = "Algorithm-IOSTests";
+			productReference = 91F59E8D2008A25700F59938 /* Algorithm-IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +302,15 @@
 						ProvisioningStyle = Automatic;
 					};
 					91F59E6C20089A0600F59938 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91F59E5820089A0500F59938;
+					};
+					91F59E842008A25700F59938 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					91F59E8C2008A25700F59938 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 91F59E5820089A0500F59938;
@@ -170,6 +332,8 @@
 			targets = (
 				91F59E5820089A0500F59938 /* AlgorithmPlayground */,
 				91F59E6C20089A0600F59938 /* AlgorithmPlaygroundTests */,
+				91F59E842008A25700F59938 /* Algorithm-IOS */,
+				91F59E8C2008A25700F59938 /* Algorithm-IOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,6 +356,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91F59E832008A25700F59938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F59E8B2008A25700F59938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -199,8 +377,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F59EFA200A476600F59938 /* NodeBST.swift in Sources */,
 				91F59E5F20089A0600F59938 /* ViewController.swift in Sources */,
+				91F59EA620090A0C00F59938 /* NodeLL.swift in Sources */,
 				91F59E5D20089A0600F59938 /* AppDelegate.swift in Sources */,
+				91F59EA4200909A600F59938 /* LinkedListQuestion.swift in Sources */,
+				91F59E7D20089A5100F59938 /* BinarySearchTreeQuestion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +394,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91F59E802008A25700F59938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F59EAB20091FB900F59938 /* ViewController.swift in Sources */,
+				91F59EAD200A396600F59938 /* NodeLL.swift in Sources */,
+				91F59EFB200A476600F59938 /* NodeBST.swift in Sources */,
+				91F59EA920091F4200F59938 /* BinarySearchTreeQuestion.swift in Sources */,
+				91F59EAC200A395E00F59938 /* LinkedListQuestion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F59E892008A25700F59938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F59E952008A25700F59938 /* Algorithm_IOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -219,6 +421,21 @@
 			isa = PBXTargetDependency;
 			target = 91F59E5820089A0500F59938 /* AlgorithmPlayground */;
 			targetProxy = 91F59E6E20089A0600F59938 /* PBXContainerItemProxy */;
+		};
+		91F59E902008A25700F59938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91F59E842008A25700F59938 /* Algorithm-IOS */;
+			targetProxy = 91F59E8F2008A25700F59938 /* PBXContainerItemProxy */;
+		};
+		91F59E922008A25700F59938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91F59E5820089A0500F59938 /* AlgorithmPlayground */;
+			targetProxy = 91F59E912008A25700F59938 /* PBXContainerItemProxy */;
+		};
+		91F59E992008A25700F59938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91F59E842008A25700F59938 /* Algorithm-IOS */;
+			targetProxy = 91F59E982008A25700F59938 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -352,6 +569,7 @@
 		91F59E7720089A0600F59938 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M64UV7ECX7;
@@ -367,6 +585,7 @@
 		91F59E7820089A0600F59938 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M64UV7ECX7;
@@ -413,6 +632,86 @@
 			};
 			name = Release;
 		};
+		91F59E9D2008A25700F59938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M64UV7ECX7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Algorithm-IOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algorithm.Algorithm-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91F59E9E2008A25700F59938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M64UV7ECX7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Algorithm-IOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algorithm.Algorithm-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91F59EA12008A25700F59938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M64UV7ECX7;
+				INFOPLIST_FILE = "Algorithm-IOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algorithm.Algorithm-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlgorithmPlayground.app/AlgorithmPlayground";
+			};
+			name = Debug;
+		};
+		91F59EA22008A25700F59938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M64UV7ECX7;
+				INFOPLIST_FILE = "Algorithm-IOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.algorithm.Algorithm-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlgorithmPlayground.app/AlgorithmPlayground";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -439,6 +738,24 @@
 			buildConfigurations = (
 				91F59E7A20089A0600F59938 /* Debug */,
 				91F59E7B20089A0600F59938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F59E9C2008A25700F59938 /* Build configuration list for PBXNativeTarget "Algorithm-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F59E9D2008A25700F59938 /* Debug */,
+				91F59E9E2008A25700F59938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F59EA02008A25700F59938 /* Build configuration list for PBXNativeTarget "Algorithm-IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F59EA12008A25700F59938 /* Debug */,
+				91F59EA22008A25700F59938 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
